@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>可变更主题的页面</title>
+    <link rel="stylesheet" type="text/css" href="pagecolor.css">
+</head>
+
+<body>
+    <div class="title-line"></div>
+    <div class="con">
+        <!--con start-->
+        <!--header start-->
+        <header>
+            <!--title start-->
+            <div class="title">
+                <!--hao123logo start-->
+                <div class="hao123logo">
+                    <a href="https://www.baidu.com/s?word=%E5%B0%8F%E9%9B%AA%E8%8A%82%E6%B0%94%E5%90%83%E4%BB%80%E4%B9%88&tn=sitehao123_08">
+                    </a>
+                </div>
+                <!--end hao123logo-->
+                <!--hao123-col start-->
+                <div class="hao123-col">
+                    <div class="weather">
+                        <a href="#" class="place">
+                            <p>深圳</p>
+                            <span class="arrow arrow-p"></span>
+                        </a>
+                        <span class="weather-icon"></span>
+                        <span class="clond">多云</span>
+                        <span class="temp">29~33℃</span>
+                    </div>
+                    <div class="calendar">
+                        <span class="calendar-icon">
+                        22
+                    </span>
+                        <span class="deta">11月22日</span>
+                        <span class="day">周日</span>
+                    </div>
+                </div>
+                <!--end hao123-col-->
+                <!--login-link start-->
+                <div class="login-link">
+                    <ul>
+                        <li class="login">
+                            <a href="#">
+                                <span></span>
+                                <p>登录</p>
+                            </a>
+                        </li>
+                        <li class="email">
+                            <a href="#">
+                                <span></span>
+                                <p>邮箱</p>
+                            </a>
+                        </li>
+                        <li class="browser">
+                            <a href="#">
+                                <span></span>
+                                <p>浏览器</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--end login-link start-->
+                <!--ad start-->
+                <a class="header-ad">
+                    <span></span>
+                </a>
+                <!--end ad-->
+            </div>
+            <!--end tilte-->
+        </header>
+        <!--end header-->
+        <!--article start-->
+        <article>
+            <!--search start-->
+            <div class="search">
+                <span class="search-icon"></span>
+                <!--search-content start-->
+                <div class="search-content">
+                    <form>
+                        <div class="search-inner">
+                            <a href="#">
+                                <span>网页</span>
+                                <span class="arrow arrow-s"></span>
+                            </a>
+                            <input type="text" />
+                        </div>
+                        <input class="search-btn" type="submit" value="" />
+                    </form>
+                </div>
+                <!--end search-content-->
+                <!--search hot-search-->
+                <div class="hot-search">
+                    <ul>
+                        <li class="hot-title">
+                            <a href="#" class="text-wrap">热搜</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">深圳天气</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">NBA</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">跑男3</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">恒大夺冠</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">金池被包养</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">村妇范冰冰</a>
+                        </li>
+                        <li class="hot-content">
+                            <a href="#">金星秀</a>
+                        </li>
+                        <li class="hot-more">
+                            <a href="#" class="text-wrap">更多</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--end hot-search-->
+            </div>
+            <!--end search-->
+            <!--theme-choose start-->
+            <div class="theme-choose">
+                <span class="choose-title">请选择主题</span>
+                <ul>
+                    <li>
+                        <button class="theme" id="green" onclick="changeTheme('#118850')"></button>
+                    </li>
+                    <li>
+                        <button class="theme" id="blue" onclick="changeTheme('#38f')"></button>
+                    </li>
+                    <li>
+                        <button class="theme" id="red" onclick="changeTheme('#E43B3B')"></button>
+                    </li>
+                    <li>
+                        <button class="theme" id="purple" onclick="changeTheme('#D13CD2')"></button>
+                    </li>
+                    <li>
+                        <button class="theme" id="black" onclick="changeTheme('#000')"></button>
+                    </li>
+                    <li>
+                        <button class="theme" id="gold" onclick="changeTheme('#F7C60C')"></button>
+                    </li>
+                </ul>
+            </div>
+            <!--end theme-choose-->
+            <!--top-nav start-->
+            <div class="top-nav">
+                <ul>
+                    <li>
+                        <a href="#" class="active bg-wrap">首页</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">电视剧</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">最新电影</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">新闻头条</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">八卦娱乐</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">军事热点</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">热门游戏</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">小游戏</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">今日特价</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-wrap">特价旅游</a>
+                    </li>
+                </ul>
+            </div><!--end-top-nav-->
+            <!--left-nav start-->
+            <div class="left-nav border-wrap">
+                <a href="#" class="left-nav-ad">
+                    <span></span>
+                </a>
+                <div class="left-nav-content">
+                    <ul>
+                        <li>
+                            <span class="tv-icon"></span>
+                            <a href="#" class="nav-text">电视剧</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">综艺</a>
+                        </li>
+                        <li>
+                            <span class="game-icon"></span>
+                            <a href="#" class="nav-text">游戏</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">小游戏</a>
+                        </li>
+                        <li>
+                            <span class="movie-icon"></span>
+                            <a href="#" class="nav-text">电影</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">直播</a>
+                        </li>
+                        <li>
+                            <span class="carton-icon"></span>
+                            <a href="#" class="nav-text">漫画</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">动画</a>
+                        </li>
+                        <li>
+                            <span class="news-icon"></span>
+                            <a href="#" class="nav-text">头条</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">军事</a>
+                        </li>
+                        <li>
+                            <span class="travel-icon"></span>
+                            <a href="#" class="nav-text">旅游</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">门票</a>
+                        </li>
+                        <li>
+                            <span class="speculate-icon"></span>
+                            <a href="#" class="nav-text">彩票</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">股票</a>
+                        </li>
+                        <li>
+                            <span class="reader-icon"></span>
+                            <a href="#" class="nav-text">搞笑</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">小说</a>
+                        </li>
+                        <li>
+                            <span class="shopping-icon"></span>
+                            <a href="#" class="nav-text">特价</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">海淘</a>
+                        </li>
+                        <li>
+                            <span class="education-icon"></span>
+                            <a href="#" class="nav-text">教育</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">理财</a>
+                        </li>
+                        <li>
+                            <span class="life-icon"></span>
+                            <a href="#" class="nav-text">生活</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">天气</a>
+                        </li>
+                        <li>
+                            <span class="food-icon"></span>
+                            <a href="#" class="nav-text">美食</a>
+                            <span class="split"></span>
+                            <a href="#" class="nav-text">娱乐</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--end left-nav-->
+            <!--plus-card start-->
+            <div class="plus-card border-wrap">
+                <ul class="plus">
+                    <li>
+                        <a href="https://www.baidu.com/?tn=10018801_hao">
+                            <span class="baidu-icon"></span>
+                            <span class="nav-text">百度</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://tieba.baidu.com/">
+                            <span class="nav-text">贴吧</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.sina.com.cn/">
+                            <span class="sina-icon"></span>
+                            <span class="nav-text">新浪</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://weibo.com/">
+                            <span class="nav-text">微博</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.sohu.com/">
+                            <span class="sohu-icon"></span>
+                            <span class="nav-text">搜狐</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.hao123.com/top">
+                            <span class="nav-text">热点</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.qq.com/">
+                            <span class="qq-icon"></span>
+                            <span class="nav-text">腾讯</span>
+                        </a>
+                        <span class="dot">.</span>
+                        <a href="https://wx.qq.com/">
+                            <span class="nav-text">微信</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.163.com/">
+                            <span class="n163-icon"></span>
+                            <span class="nav-text">网易</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.iqiyi.com/">
+                            <span class="iqiyi-icon"></span>
+                            <span class="nav-text">爱奇艺高清</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tmall.com/?ali_trackid=2:mm_26632322_6858406_23810104:1448249237_268_1016418924">
+                            <span class="tmall-icon"></span>
+                            <span class="nav-text">天猫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.ifeng.com/">
+                            <span class="ifeng-icon"></span>
+                            <span class="nav-text">凤凰网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.taobao.com/">
+                            <span class="taobao-icon"></span>
+                            <span class="nav-text">淘宝网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://game.hao123.com/">
+                            <span class="fgame-icon"></span>
+                            <span class="nav-text">免费游戏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.4399.com/">
+                            <span class="n4399-icon"></span>
+                            <span class="nav-text">4399游戏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.xinhuanet.com/">
+                            <span class="xinhuanet-icon"></span>
+                            <span class="nav-text">新华</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.people.com.cn/">
+                            <span class="nav-text">人民</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.jd.com/?juc=emp1&cu=true&utm_source=www.hao123.com&utm_medium=tuiguang&utm_campaign=t_75_&utm_term=f5d6c84dfb4049eca7e966129e698903">
+                            <span class="jd-icon"></span>
+                            <span class="nav-text">京东商城</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ju.taobao.com/?ali_trackid=2:mm_43125636_4246598_25832396:1448249690_257_1593901760">
+                            <span class="ju-icon"></span>
+                            <span class="nav-text">聚划算</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://tejia.hao123.com/?tn=mz">
+                            <span class="tejia-icon"></span>
+                            <span class="nav-text">今日特价</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://v.hao123.com/">
+                            <span class="v-icon"></span>
+                            <span class="nav-text">hao123影视</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.autohome.com.cn/">
+                            <span class="autohome-icon"></span>
+                            <span class="nav-text">汽车之家</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.qunar.com/">
+                            <span class="qunar-icon"></span>
+                            <span class="nav-text">去哪儿</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="plus-title-line"></div>
+                <ul class="plus">
+                    <li>
+                        <a href="http://www.eastmoney.com/">
+                            <span class="nav-text">东方财富</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.hao123.com/licai">
+                            <span class="nav-text">理财</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://sz.58.com/">
+                            <span class="nav-text">58同城</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://sz.fang.com/">
+                            <span class="nav-text">搜房网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.ctrip.com/">
+                            <span class="nav-text">携程旅行网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.pptv.com/">
+                            <span class="nav-text">pptv聚力</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://go.hao123.com/">
+                            <span class="nav-text">旅游</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.12306.cn/mormhweb/">
+                            <span class="nav-text">12306</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://gz.jumei.com/?referer=hao123_mz">
+                            <span class="nav-text">聚美优品</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://bj.ganji.com/">
+                            <span class="nav-text">赶集网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://shenzhen.bitauto.com/?referrer=https://www.hao123.com/">
+                            <span class="nav-text">易车网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://caipiao.hao123.com/">
+                            <span class="nav-text">彩票开奖</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.xcar.com.cn/">
+                            <span class="nav-text">爱卡汽车</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.meipai.com/">
+                            <span class="nav-text">美拍</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.vip.com/?hao123?&utm_source=hao123&utm_medium=textlink&utm_term=201312027&utm_content=&utm_campaign=mz">
+                            <span class="nav-text">唯品会</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.ly.com/c83f4797d12baf9b/?refid=52600394">
+                            <span class="nav-text">同程旅游</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.tuniu.com/?p=16268&cmpid=mkt_03034401&utm_campaign=daohang&utm_source=hao123.com&utm_medium=display">
+                            <span class="nav-text">途牛旅游网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://liulanqi.baidu.com/?sid=10003142">
+                            <span class="nav-text">百度浏览器</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.pcauto.com.cn/">
+                            <span class="nav-text">太平洋汽车</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.elong.com/?banid=hao123ming">
+                            <span class="nav-text">艺龙网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.nuomi.com/?utm_source=hao123&utm_medium=mz&utm_campaign=text&cid=001601">
+                            <span class="nav-text">百度糯米</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.mogujie.com/?h=hao123mz&f=mgjlm&mcfp=19_12r34p8_#category_sort_all">
+                            <span class="nav-text">蘑菇街</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://life.hao123.com/">
+                            <span class="nav-text">hao到家</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.hao123.com/xuexi">
+                            <span class="nav-text">学习</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://user.lu.com/user/lpreg?action=se_lucom&seo=se_lucom&marketFeedbackCode=eyJ1cmxUaWQiOiItMjEwNCIsInVybFNvdXJjZSI6IjM2MDQ1In0">
+                            <span class="nav-text">陆金所理财</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://moe.hao123.com/">
+                            <span class="nav-text">盟主页</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://v.hao123.com/dongman/">
+                            <span class="nav-text">动漫</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="http://gouwu.hao123.com/?tn=mz">
+                            <span class="nav-text">购物</span>
+                        </a>
+                        <span class="dot">&nbsp;•&nbsp;</span>
+                        <a href="http://www.hao123.com/mobile/?tn=mz">
+                            <span class="nav-text">手机</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.suning.com/?utm_source=hao123&utm_medium=mingzhan" class="text-wrap main-text">
+                            <span>苏宁易购</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.gome.com.cn/?cmpid=dh_hao123_mz" class="text-wrap main-text">
+                            <span>国美在线</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.smzdm.com/?utm_source=hao123&utm_medium=AD&utm_campaign=001" class="text-wrap main-text">
+                            <span>什么值得买</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.yhd.com/?tracker_u=10861423206" class="text-wrap main-text">
+                            <span>1号店</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://ai.taobao.com/?pid=mm_43125636_4246598_21868321" class="text-wrap main-text">
+                            <span>爱淘宝</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://flights.ctrip.com/?allianceid=1630&sid=733214&ouid=000401app-&utm_medium=&utm_campaign=&utm_source=&isctrip=" class="text-wrap main-text">
+                            <span>携程机票</span>
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+            <!--end plus-card-->
+        </article>
+        <!--end article-->
+    </div>
+    <!--end con-->
+    <script type="text/javascript" src="theme.js"></script>
+</body>
+
+</html>
